@@ -1,0 +1,54 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>密保设置</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <div class="notice" padding-left padding-right>
+        设置密保后可以通过密保修改资金密码等。密保一旦设置将无法修改！
+    </div>
+    <div class="notice" *ngIf="isHasQuestion" padding-left>
+        您已设置密保
+    </div>
+    <div *ngIf="!isHasQuestion">
+        <ion-item class="mibao1">
+            <ion-label>问题一：</ion-label>
+            <ion-select [(ngModel)]="bindQuestionPars.Question1" okText="确定" cancelText="取消">
+                <ion-option value="{{q.Id}}" *ngFor="let q of questionPars.questionList1">{{q.Question}}</ion-option>
+            </ion-select>
+        </ion-item>
+        <ion-icon class="mbdui" name="arrow-down"></ion-icon>
+        <ion-item class="daan1">
+            <ion-label>密保答案：</ion-label>
+            <ion-input name="answer_old" type="text" class="ipt" [(ngModel)]="bindQuestionPars.Answer1" placeholder="请输入答案"></ion-input>
+        </ion-item>
+
+
+        <ion-item>
+            <ion-label>问题二：</ion-label>
+            <ion-select [(ngModel)]="bindQuestionPars.Question2" okText="确定" cancelText="取消">
+                <ion-option value="{{q.Id}}" *ngFor="let q of questionPars.questionList2">{{q.Question}}</ion-option>
+            </ion-select>
+        </ion-item>
+        <ion-icon class="mbdui2" name="arrow-down"></ion-icon>
+        <ion-item class="daan2">
+            <ion-label>密保答案：</ion-label>
+            <ion-input name="answer_old" type="text" class="ipt" [(ngModel)]="bindQuestionPars.Answer2" placeholder="请输入答案"></ion-input>
+        </ion-item>
+
+
+        <ion-item>
+            <ion-label>问题三：</ion-label>
+            <ion-select [(ngModel)]="bindQuestionPars.Question3" okText="确定" cancelText="取消">
+                <ion-option value="{{q.Id}}" *ngFor="let q of questionPars.questionList3">{{q.Question}}</ion-option>
+            </ion-select>
+        </ion-item>
+        <ion-icon class="mbdui3" name="arrow-down"></ion-icon>
+        <ion-item>
+            <ion-label>密保答案：</ion-label>
+            <ion-input name="answer_old" type="text" class="ipt" [(ngModel)]="bindQuestionPars.Answer3" placeholder="请输入答案"></ion-input>
+        </ion-item>
+        <button ion-button (click)="setSecurityInfo()" block>确认修改</button>
+
+    </div>
+</ion-content>

@@ -1,0 +1,47 @@
+page-setting {
+    ion-navbar.toolbar {
+        height: 5rem;
+    }
+    .titleUser {
+        background: color($colors, light);
+        p {
+            margin: 0 0 7px 0;
+        }
+    }
+    .toolbar-title-ios {
+        font-size: 1.6rem;
+    }
+    .content {
+        .scroll-content {
+            padding: 0 !important;
+        }
+        .item {
+            padding: 0 !important;
+            box-shadow: 1px 2px 3px #ccc;
+            ion-row {
+                span {
+                    width: 97%;
+                    font-size: 1.4rem;
+                    color: color($colors, darkone);
+                }
+                .zuos {
+                    font-size: 1.8rem;
+                    color: #ccc;
+                }
+            }
+        }
+        .active {
+            background: color($colors, bluetwo);
+            color: #fff!important;
+        }
+        .button {
+            width: 90%;
+            margin: 2rem auto;
+            display: block;
+            height: 3rem;
+            span {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title align="center">安全设置</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-item class="item">
+        <ion-row padding-left>
+            <span tappable (click)="changePassword()">修改登录密码</span>
+            <ion-icon name="arrow-forward" class="zuos"></ion-icon>
+        </ion-row>
+    </ion-item>
+    <ion-item class="item">
+        <ion-row padding-left>
+            <span tappable (click)="moneySet()">资金密码设置</span>
+            <ion-icon name="arrow-forward" class="zuos"></ion-icon>
+        </ion-row>
+    </ion-item>
+    <ion-item class="item">
+        <ion-row padding-left>
+            <span tappable (click)="encryptedSet()">密保设置</span>
+            <ion-icon name="arrow-forward" class="zuos"></ion-icon>
+        </ion-row>
+    </ion-item>
+    <ion-item class="item">
+        <ion-row padding-left>
+            <span tappable (click)="banklist()">银行卡管理</span>
+            <ion-icon name="arrow-forward" class="zuos"></ion-icon>
+        </ion-row>
+    </ion-item>
+    <button ion-button (click)="exit()">安全退出</button>
+</ion-content>

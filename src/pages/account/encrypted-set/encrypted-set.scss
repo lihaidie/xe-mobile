@@ -1,0 +1,77 @@
+page-secretquestion {
+    .notice {
+        color: red;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 1rem;
+    }
+    ion-item {
+        padding: 0;
+        position: relative;
+        ion-label {
+            color: #767676;
+            font-size: 1.5rem;
+            padding-left: 16px;
+        }
+    }
+    .item-ios {
+        padding: 0;
+    }
+    .mbdui {
+        position: absolute;
+        top: 82px;
+        right: 4px;
+        font-size: 2.5rem;
+        color: #ccc;
+    }
+    .mbdui2 {
+        position: absolute;
+        top: 200px;
+        right: 4px;
+        font-size: 2.5rem;
+        color: #ccc;
+    }
+    .mbdui3 {
+        position: absolute;
+        top: 315px;
+        right: 4px;
+        font-size: 2.5rem;
+        color: #ccc;
+    }
+    .select-ios {
+        padding: none;
+    }
+    .mibao1 {
+        margin-top: 1rem;
+    }
+    .daan1 {
+        margin-bottom: 1rem;
+    }
+    .daan2 {
+        margin-bottom: 1rem;
+    }
+    button {
+        // margin-top: 1rem;
+    }
+    .button-ios {
+        width: 95%;
+        margin: 1rem auto;
+        border-radius: 7px;
+        letter-spacing: 5px;
+        height: 2.5rem;
+    }
+    span.button-inner {
+        font-size: 1.6rem;
+        letter-spacing: 1rem;
+    }
+    .select-ios .select-icon {
+        display: none;
+        position: relative;
+    }
+    .select-text {
+        position: absolute;
+        right: 21px;
+        top: 19px;
+    }
+}

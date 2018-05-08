@@ -1,0 +1,219 @@
+page-user-bank-list {
+    .toolbar-content-md {
+        text-align: center !important;
+    }
+    .content {
+        .scroll-content {
+            padding: 0 !important;
+        }
+        .remind {
+            margin-top: .8rem;
+            background: color($colors, base);
+            padding: 4rem 0;
+            margin-bottom: 1.5rem;
+            box-shadow: 1px 2px 3px color($colors, grayone);
+            img {
+                width: 5.9rem;
+                height: 4.1rem;
+            }
+            p {
+                text-align: center;
+                color: color($colors, darktwo);
+                line-height: 1.4rem;
+            }
+        }
+        .addbank {
+            border-radius: 5px;
+            width: 97%;
+            height: 2.8rem;
+            margin: 0 auto;
+            letter-spacing: 0.5rem;
+            margin-top: -1rem;
+            span.button-inner {
+                font-size: 1.8rem !important;
+            }
+        }
+        .item.news {
+            margin-top: .8rem;
+            box-shadow: 1px 2px 3px color($colors, grayone);
+            padding: 0 .8rem 0 1.8rem;
+            .banknum_wap {
+                line-height: 2rem;
+            }
+            .item-inner {
+                padding: 0;
+                border: none;
+            }
+            .button-ios {
+                height: 1.5rem;
+                // color: #fff !important;
+            }
+            .button-md {
+                height: 1.5rem;
+                // color:#fff !important;
+            }
+            .label {
+                padding: 0 .8rem 0 1.8rem;
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .banknum {
+                display: flex;
+                align-items: center;
+                .button {
+                    padding: 0;
+                    margin-left: .5rem;
+                    border: 1px solid #ccc;
+                    display: inline-block;
+                    height: 1.5rem !important;
+                    line-height: 1.5rem;
+                    padding: 0 1rem;
+                    border-radius: 6px;
+                }
+            }
+            .bankicon {
+                width: 2rem;
+                height: 2rem;
+                background: url("../../assets/images/bank_list.png") no-repeat;
+                background-size: 9rem 23rem;
+                display: block;
+                float: left;
+                margin-right: .5rem;
+            }
+            .bankicon.bankicon_ICBC {
+                background-position: 0px -1px;
+            }
+            .bankicon_CCB {
+                background-position: -40px 0px;
+            }
+            .bankicon_JH {
+                background-position: -229px -94px;
+            }
+            .bankicon_ZH {
+                background-position: -0 -88px;
+            }
+            .bankicon_SH {
+                background-position: -117px -481px;
+            }
+            .bankicon_ABC {
+                background-position: -226px 0px;
+            }
+            .bankicon_ZX {
+                background-position: -231px -184px;
+            }
+            .bankicon_MS {
+                background-position: -229px -480px;
+            }
+            .bankicon_GD {
+                background-position: 0px -211px;
+            }
+            .bankicon_PN {
+                background-position: -108px -678px;
+            }
+            .bankicon_YZ {
+                background-position: 0px -478px;
+            }
+            .bankicon_XY {
+                background-position: -110px -177px;
+            }
+            .bankicon_GDFZ {
+                background-position: -229px -377px;
+            }
+            .bankicon_HXYH {
+                background-position: -111px -585px;
+            }
+            .bankicon_PF {
+                background-position: 0px -180px;
+            }
+            .bankicon_ZG {
+                background-position: -40px -32px;
+            }
+            .bankicon_zg {
+                background-position: -40px -32px;
+            }
+        }
+    }
+}
+
+page-add-user-bank {
+    .item {
+        border-bottom: none;
+    }
+    ion-item {
+        position: relative;
+        .text-input {
+            color: #282828;
+        }
+    }
+    .dui {
+        font-size: 2.5rem;
+        color: #ccc;
+        position: absolute;
+        right: 17px;
+        top: 26px;
+    }
+    .dui1 {
+        font-size: 2.5rem;
+        color: #ccc;
+        position: absolute;
+        right: 17px;
+        top: 78px;
+    }
+    .dui2 {
+        font-size: 2.5rem;
+        color: #ccc;
+        position: absolute;
+        right: 17px;
+        top: 130px;
+    }
+    .dui3 {
+        font-size: 2.5rem;
+        color: #ccc;
+        position: absolute;
+        right: 17px;
+        top: 181px
+    }
+    .tianjia {
+        border-radius: 5px;
+        width: 97%;
+        margin: 0 auto;
+        height: 2.8rem;
+        span.button-inner {
+            font-size: 1.8rem !important;
+            letter-spacing: 1rem;
+        }
+    }
+    .list-ios {
+        margin-bottom: 15px;
+    }
+    ion-label {
+        font-size: 1.12rem;
+        color: #767676;
+    }
+    ion-input {
+        color: color($colors, darktwo);
+        font-size: 1.2rem;
+    }
+    .sheng {
+        // width: 2rem;
+        // margin-left: 3rem;
+        // margin-left: 3rem;
+    }
+    .select-text {
+        margin-right: 2rem;
+    }
+    .list-ios>.item-block:last-child,
+    .list-ios>.item-wrapper:last-child .item-bloc {
+        border-bottom: none;
+    }
+    .item {
+        margin-bottom: 0;
+        // border-bottom: 1px solid #c8c7cc;
+    }
+    .item .select {
+        background: transparent !important;
+        color: #000;
+    }
+}
