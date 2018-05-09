@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title align="center">网站公告</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="content">
+    <ion-list class="list">
+        <ion-card tappable *ngFor="let a of articles" (click)="goDetail(a.content)">
+            <ion-icon name="gonggao" class="Tv-icon"></ion-icon>
+            <span class="lottery">{{a.title}}</span>
+            <ion-icon small name="arrow-forward" class="arrow-icon"></ion-icon>
+        </ion-card>
+    </ion-list>
+
+</ion-content>
